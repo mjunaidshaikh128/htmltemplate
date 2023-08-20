@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "name": "Muhammad Junaid Shaikh",
+      "email": "junaid@gmail.com",
+      "subject": "Hello world",
+      "message": "lorem ipsum",
+      "id": 1
+    },
+    {
+      "name": "Wasiq",
+      "email": "wasiq@email.com",
+      "subject": "ww",
+      "message": "www",
+      "id": 2
+    }
+  ],
+  "features": [
+    {
+      "text": "High Resolution",
+      "desc": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.\"",
+      "imgUrl": "fa-eye",
+      "id": 1
+    },
+    {
+      "text": "Editable Data",
+      "desc": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.\"",
+      "imgUrl": "fa-edit",
+      "id": 2
+    },
+    {
+      "text": "Retina Ready",
+      "desc": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.\"",
+      "imgUrl": "fa-layer-group",
+      "id": 3
+    },
+    {
+      "text": "Fully Secured",
+      "desc": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.\"",
+      "imgUrl": "fa-shield-alt",
+      "id": 4
+    },
+    {
+      "text": "Cloud Storage",
+      "desc": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.\"",
+      "imgUrl": "fa-cloud",
+      "id": 5
+    },
+    {
+      "text": "Fully Responsive",
+      "desc": "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.\"",
+      "imgUrl": "fa-mobile-alt",
+      "id": 6
+    }
+  ]
+}
