@@ -18,6 +18,10 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FeatureComponent } from './components/feature/feature.component';
+import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SignupComponent } from './pages/signup/signup.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +37,10 @@ import { FeatureComponent } from './components/feature/feature.component';
     ContactComponent,
     FooterComponent,
     FeatureComponent,
+    HomeComponent,
+    LoginComponent,
+    SignupComponent,
+    HeroComponent,
   ],
   imports: [
     BrowserModule,
