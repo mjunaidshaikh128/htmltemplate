@@ -429,9 +429,9 @@ h6,
     margin-top: 6rem;
     padding-top: 9rem;
     background:
-        url(./assets/img/bg-circle.png),
+        /* url(./assets/img/bg-circle.png),
         url(./assets/img/bg-triangle.png),
-        url(./assets/img/bg-top.png),
+        url(./assets/img/bg-top.png), */
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px bottom 0px,

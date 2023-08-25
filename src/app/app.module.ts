@@ -22,6 +22,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { HeroComponent } from './components/hero/hero.component';
+import { AuthComponent } from './pages/auth/auth.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { HeroComponent } from './components/hero/hero.component';
     LoginComponent,
     SignupComponent,
     HeroComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,
