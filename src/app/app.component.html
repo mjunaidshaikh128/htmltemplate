@@ -1,7 +1,7 @@
 <div class="bg-white p-0">
-  <app-header></app-header>
+  <app-header ></app-header>
   <main>
     <router-outlet></router-outlet>
   </main>
-  <app-footer></app-footer>
+  <app-footer *ngIf="!isAuthRouteActive()"></app-footer>
 </div>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,12 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+constructor(private router: Router, private route: ActivatedRoute ) {}
+
+isAuthRouteActive(): boolean {
+  return this.router.url.includes('/auth')
+}
+
   title = 'angular-temp';
   customOptions: OwlOptions = {
     loop: true,
@@ -41,4 +48,3 @@ export class AppComponent {
     },
   };
 }
-
